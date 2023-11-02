@@ -36,9 +36,9 @@ namespace Tetris_Using_WinForms
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.pictureBox1.Location = new System.Drawing.Point(67, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(107, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(277, 417);
+            this.pictureBox1.Size = new System.Drawing.Size(329, 577);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -46,7 +46,7 @@ namespace Tetris_Using_WinForms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 441);
+            this.ClientSize = new System.Drawing.Size(984, 601);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Main";
             this.Text = "Tetris WinForms Edition v.1.0";

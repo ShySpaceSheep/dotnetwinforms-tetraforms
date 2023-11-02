@@ -56,7 +56,14 @@
     <Compile Include="MatrixSquare.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tetromino.cs" />
+    <Compile Include="TetrisPieces\IPiece.cs" />
+    <Compile Include="TetrisPieces\JPiece.cs" />
+    <Compile Include="TetrisPieces\LPiece.cs" />
+    <Compile Include="TetrisPieces\OPiece.cs" />
+    <Compile Include="TetrisPieces\SPiece.cs" />
+    <Compile Include="TetrisPieces\Tetromino.cs" />
+    <Compile Include="TetrisPieces\TPiece.cs" />
+    <Compile Include="TetrisPieces\ZPiece.cs" />
     <Compile Include="Utils.cs" />
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -82,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Control\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
